@@ -1,0 +1,24 @@
+{
+  "vue-component": {
+    "describe": "generate vue component file",
+    "templates": [
+      {
+        "source": "./_template/component/Hello.vue",
+        "target": "./src/components",
+        "keepFileName": false,
+        "placeholder": "Hello"
+      }
+    ]
+  },
+  "vue-unit-test": {
+    "describe": "generate vue unit test file",
+    "templates": [
+      {
+        "source": "./_template/test/unit/Hello.spec.js",
+        "target": "./src/test/unit/specs",
+        "keepFileName": false,
+        "placeholder": "Hello"
+      }
+    ]
+  }
+}
